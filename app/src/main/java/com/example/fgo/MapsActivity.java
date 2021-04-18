@@ -89,7 +89,7 @@ checkPermission();
         if(permissionlocation== PackageManager.PERMISSION_GRANTED)
         {
             mFusedLocationProviderClient=LocationServices.getFusedLocationProviderClient(MapsActivity.this);
-            Places.initialize(MapsActivity.this,"AIzaSyCsdQhqmE8ry6Rs1136UflCzFQ80QQ8Npk");
+            Places.initialize(MapsActivity.this,"YOUR_API_KEY");
             placesClient=Places.createClient(this);
             AutocompleteSessionToken token=AutocompleteSessionToken.newInstance();
             getMyLocation();
