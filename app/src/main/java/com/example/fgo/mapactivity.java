@@ -81,7 +81,7 @@ private  String getUrl(double latitude,double logitude,String bunk)
     googleplacesurl.append("&radius="+PROXIMITY_RADIUS);
     googleplacesurl.append("&type"+bunk);
     googleplacesurl.append("&sensor=true");
-    googleplacesurl.append("&key="+"\"AIzaSyCsdQhqmE8ry6Rs1136UflCzFQ80QQ8Npk");
+    googleplacesurl.append("&key="+"\"YOUR_API_KEY");
     return  googleplacesurl.toString();
 }
     @Override
